@@ -1,5 +1,5 @@
 {
-    "name": "alymosul/exponent-server-sdk-php",
+    "name": "jmmorillon/exponent-server-sdk-php",
     "description": "Server-side library for working with Expo push notifications using PHP",
     "keywords": ["expo", "exponent", "push", "notifications"],
     "type": "library",
@@ -8,6 +8,10 @@
         {
             "name": "Aly Suleiman",
             "email": "alymosul@gmail.com"
+        },
+        {
+            "name": "Jean-Michel Morillon",
+            "email": "jmmorillon@gmail.com"
         }
     ],
     "require": {
