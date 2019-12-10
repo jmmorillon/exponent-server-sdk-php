@@ -31,4 +31,12 @@ interface ExpoRepository
      * @return bool
      */
     public function forget(string $key, string $value = null): bool;
+    
+    /**
+     * Allows for custom token storage path
+     *
+     * @param  string $storage path to token storage json file
+     * @return self
+     */
+    public function setStorage(string $storage): self;
 }
